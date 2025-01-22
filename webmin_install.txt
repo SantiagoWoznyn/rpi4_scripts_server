@@ -1,0 +1,53 @@
+2. Instala dependencias necesarias
+bash
+Copiar
+Editar
+sudo apt install -y wget apt-transport-https software-properties-common
+📌 3. Agrega el repositorio de Webmin
+Ejecuta los siguientes comandos:
+
+bash
+Copiar
+Editar
+wget -qO - http://www.webmin.com/jcameron-key.asc | sudo apt-key add -
+sudo sh -c 'echo "deb http://download.webmin.com/download/repository sarge contrib" > /etc/apt/sources.list.d/webmin.list'
+📌 4. Instala Webmin
+bash
+Copiar
+Editar
+sudo apt update && sudo apt install -y webmin
+📌 5. Verifica el estado del servicio
+bash
+Copiar
+Editar
+sudo systemctl status webmin
+Si no está corriendo, puedes iniciarlo manualmente:
+
+bash
+Copiar
+Editar
+sudo systemctl start webmin
+sudo systemctl enable webmin  # Para que se inicie automáticamente al reiniciar
+📌 6. Acceder a Webmin
+Abre tu navegador y accede a:
+
+arduino
+Copiar
+Editar
+https://[IP_DE_TU_RASPBERRY]:10000
+Ejemplo si estás en la Raspberry Pi:
+
+arduino
+Copiar
+Editar
+https://localhost:10000
+El usuario por defecto es root, usa la contraseña de tu Raspberry Pi.
+
+📌 Opcional: Cambiar contraseña de Webmin
+Si quieres cambiar la contraseña de root en Webmin, usa:
+
+bash
+Copiar
+Editar
+sudo /usr/share/webmin/changepass.pl /etc/webmin root NUEVA_CONTRASEÑA
+🔹 ¡Listo! Ahora tienes Webmin instalado y funcionando en tu Raspberry Pi 4. 🚀
