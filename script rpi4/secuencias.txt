@@ -1,5 +1,4 @@
-instalar casa os
-curl -fsSL https://get.casaos.io | sudo bash
+instala webmin en webmin_install.txt
 --------------------------------------------------------------------------------------
 instalar el script que esta en :
     https://github.com/SantiagoWoznyn/rpi4_scripts_server/blob/main/script%20rpi4/raspbios_debian_sc.sh
