@@ -39,4 +39,5 @@ Option-2 "configure web control panel"
  elegir 5080 por ejemplo
 
 -------------------------------------------------------------------
-empezar a instalar las dockerapps
+empezar a instalar las dockerapps en :
+        https://github.com/SantiagoWoznyn/rpi4_scripts_server/tree/main/script%20rpi4/dockersc
