@@ -23,3 +23,9 @@ volumes:
 EOF
 
 echo "Archivo docker-compose.yml creado con éxito. Puedes iniciar Portainer con 'docker-compose up -d'."
+
+# Iniciar Portainer con Docker Compose
+echo "Iniciando Portainer..."
+docker-compose up -d
+
+echo "Portainer está ahora corriendo en el puerto $puerto."
