@@ -53,3 +53,21 @@ recheck your DHCP server to see if a “new” IP address has been assigned.
 as it is with some versions of DD-WRT router firmware [10 minutes] - 
 the lease issued to the SBC may time out at the end of the installation. 
 A different address may be issued on reboot.)
+
+----------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+cambiar el puerto DESPUES DE INSTALARLO
+
+login via SSH
+run 
+sudo omv-firstaid
+
+Option-2 "configure web control panel"
+  select port
+ do not select por 80
+ elegir 5080 por ejemplo
+
+
+--------------------------------------------
+fuente :
+https://wiki.omv-extras.org/doku.php?id=omv7:raspberry_pi_install 
