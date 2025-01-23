@@ -4,12 +4,12 @@ si queremos accionar desde la terminal en modo root debemos hacer esto con el do
 
 ingregamos asi:
 
-  docker exec -it --user root <nombre_del_contenedor> bash
+  sudo docker exec -it --user root <nombre_del_contenedor> bash
 
 ejemplos:
 
-  docker exec -it --user root ubuntu_kasmspace-ubuntu-desktop-1 bash
-  docker exec -it --user root kali_desktop bash
+ sudo docker exec -it --user root ubuntu_kasmspace-ubuntu-desktop-1 bash
+  sudo docker exec -it --user root kali_desktop bash
 
 -----------------------------------------------------------------------------------------------
  y ejecutamos :
