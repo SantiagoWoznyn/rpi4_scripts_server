@@ -1,0 +1,57 @@
+si bien casa os te puede automatizar esto, creeria que cookpit tambien
+no es el caso de webmin
+
+asi que aca te dejo unos comandos para listar y montar discos externos :
+    En Linux, puedes listar las particiones y ver dónde están montadas con los siguientes comandos:
+
+    lsblk – Muestra una lista de discos y particiones con sus puntos de montaje:
+
+        lsblk -f
+
+    df – Muestra las particiones montadas y el uso del disco:
+
+        df -hT
+
+    fdisk – Lista las particiones de un disco específico:
+
+        sudo fdisk -l
+
+    blkid – Muestra información sobre las particiones y sus UUIDs:
+
+        sudo blkid
+
+    cat /etc/fstab – Muestra las particiones que se montan automáticamente al inicio:
+
+        cat /etc/fstab
+
+    mount | column -t – Lista todas las particiones actualmente montadas:
+
+        mount | column -t
+
+MONTAR PARTICION :
+
+         === usamos sudo  mkdir -p /mnt/<unnombre> para crear una carpeta es necesario crearlo en mnt ===
+        EJEMPLO :
+            sudo mkdir -p /mnt/sda1
+
+        === usamos sudo mount /dev/<nombredispositivo> /mnt/<unnombre> ===
+        ejemplo 
+        sudo mount /dev/sda1 /mnt/sda1
+
+
+        === Si quieres que se monte automáticamente en el arranque, añade una línea en /etc/fstab: ===
+
+        UUID=<un monton de numeros> /mnt/<unnombre> formato(puede ser ext4 o cualquier otro) defaults 0 2
+
+        EJEMPLO:
+                UUID=4da8fcSADA-4cf3-a69aWE-c097cbef17f2 /mnt/sda2 NTFS defaults 0 2
+
+      
+        Luego recarga fstab:
+
+            sudo mount -a
+            
+        Verificar que está montado
+        Ejecuta:
+
+            df -hT
