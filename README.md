@@ -1,7 +1,8 @@
 Resumen :
-paso 1 saltear
+
 antes que nada hacer un sudo apt update y sudo apt upgrade
 
+paso 1 saltear
 --------------------------------------------------------------------------------
 paso 1 si sos principiante si no pasas al modo normal :
     https://github.com/SantiagoWoznyn/rpi4_scripts_server/blob/main/web_gui_manager_server/readme.md
@@ -39,6 +40,8 @@ segundo :
 
     PODES EJECUTAR YA INSTALAR DOCKERAPSS A TRAVES DE LOS SCRIPTS
 
+primero instalar homarr y nexterm , que ayudan a identar el servidor
+-------------------------------------------------------------------------------------
 tecero :
     instala omv 
 
