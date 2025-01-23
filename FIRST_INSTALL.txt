@@ -1,4 +1,6 @@
-instala webmin en webmin_install.txt
+instala : algun web gui manager como webmin o casa os o cockpit
+
+webmin en webmin_install.txt
 
 --------------------------------------------------------------------------------------
 instalar el script que esta en :
