@@ -12,3 +12,5 @@ services:
     restart: always  # Siempre reiniciar el contenedor si se cae
     stdin_open: true  # Mantener la terminal abierta
     tty: true  # Asignar pseudo-terminal
+     volumes:
+      - /aca la direecion del volumen
