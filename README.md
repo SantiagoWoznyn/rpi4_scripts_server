@@ -2,18 +2,15 @@ Resumen :
 
 antes que nada hacer un sudo apt update y sudo apt upgrade
 
-paso 1 saltear
 --------------------------------------------------------------------------------
-paso 1 si sos principiante si no pasas al modo normal :
+primero :
     https://github.com/SantiagoWoznyn/rpi4_scripts_server/blob/main/web_gui_manager_server/readme.md
     
     desde aca vamos a instalar un webgui manager
     como casa os, como webmin, como cockpit
 
-IMPORTANTE:ESTE PASO LO PODEMOS SALTEAR, ES DECIR EL PRIMER PASO, YA QUE CON SOLO OPENMEDIAVAULT
-YA TENEMOS TODO LO NECESARIO, MAS LOS PLUGINS ETC, DIGAMOS SI EN UN FUTURO LOS WEBFUI MANAGER
-NO LOS USAS, LO VAMOS A TENER QUE DESINTALAR, WEBMIN PUEDE SERVIR PARA ALGO
-DIGAMOS QUE ESTE PASO ES PARA PRINCIPANTES
+IMPORTANTE: vamos a instalar casa os , porque al parece ser le da mas estabilidad al servidor
+ante algun error puede que omv7 rompa algun dependecia o haga configuraciones y despues no andan
 
 ------------------------------------------------------------------------------------------
 
