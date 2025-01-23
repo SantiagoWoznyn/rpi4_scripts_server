@@ -1,5 +1,6 @@
 esto lo dejo por las dudas,
-si el webgui de omv tiene opciones para montar los discos
+si el webgui de omv tiene opciones para  montar los discos
+o crear(darle particion) y montarlos tambien
 
 si bien casa os te puede automatizar esto, creeria que cookpit tambien
 no es el caso de webmin
