@@ -1,0 +1,28 @@
+instala webmin en webmin_install.txt
+
+--------------------------------------------------------------------------------------
+instalar el script que esta en :
+    https://github.com/SantiagoWoznyn/rpi4_scripts_server/blob/main/script%20rpi4/raspbios_debian_sc.sh
+
+--------------------------------------------------------------------------
+verificar si docker compose esta instalado
+    sudo docker-compose --version
+
+sino esta instalado :::
+
+  instalar docker compose :::
+
+VERSION=$(curl -s https://api.github.com/repos/docker/compose/releases/latest | jq -r .tag_name)
+sudo curl -L "https://github.com/docker/compose/releases/download/$VERSION/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+sudo chmod +x /usr/local/bin/docker-compose
+
+sudo docker-compose --version
+
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+empezar a instalar las dockerapps
+
+------------------------------------------------------------------
+--------------------------------------------------------
+instalar omv para rpi4
