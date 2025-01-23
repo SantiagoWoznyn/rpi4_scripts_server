@@ -28,9 +28,11 @@ Installing OMV on Raspberry's is very easy, thanks to Arron Murray (ryecoaaron o
 for providing a comprehensive installation script that's executed from a single line.
 
 Copy the following line complete (Ctrl+C) and paste it into PuTTY's SSH window, with a right mouse click. 
-Then hit Enter.
+Then hit Enter:
+
 
   wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/master/install | sudo bash
+
 
 Once the script is running, click out of the SSH window so the script will not be interrupted.
 
